@@ -62,6 +62,7 @@ export function FilterPanel() {
 
       <div>
         <h3 className="text-lg font-medium text-gray-900">Time Range</h3>
+        <p className="text-xs text-gray-700 mb-3" >{`(Upcoming weeks’ tasks.)`}</p>
         <div className="mt-2 space-y-2">
           {TIME_RANGES.map(({ label, value }) => (
             <label key={value} className="flex items-center">
